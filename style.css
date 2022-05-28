@@ -1,0 +1,9 @@
+.contenedor {
+    border: 5px solid violet;
+    background-color: grey;
+}
+
+.item {
+    border: 5px solid blue;
+    font-size: 4rem;
+}
