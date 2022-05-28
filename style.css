@@ -1,9 +1,28 @@
 .contenedor {
     border: 5px solid violet;
-    background-color: grey;
+    background-color: white;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    place-content: center;
 }
 
 .item {
-    border: 5px solid blue;
     font-size: 4rem;
+}
+
+.item-1 {
+    background-color: greenyellow;
+    grid-column: 1 / 2;
+}
+
+.item-2 {
+    background-color: yellowgreen;
+    grid-column: 2 / 4;
+}
+
+.item-3 {
+    background-color: green;
+    grid-column: 1 / 3;
 }
